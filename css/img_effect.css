@@ -1,0 +1,24 @@
+#contentA img{
+		opacity: 0.3;
+}
+
+.img_scale {
+	transition:all 0.3s;
+}
+
+.img_scale:hover {
+	transform: scale(1.2);
+	transition: all 0.3s;
+}
+
+#contentC div.img {
+	background: url('images/ss.jpg') left top no-repeat;
+}
+
+#contentD div.img {
+	background: url('images/4a.jpg') left top no-repeat;
+}
+
+#contentD img {
+	opacity:0;
+}
